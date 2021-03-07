@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lab 3</title>
+    <title>Home</title>
 
     <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/styles.css"/>
@@ -24,8 +24,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">About Us</a>
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </div>
             </div>
         </div>
@@ -34,34 +34,125 @@
 
 <div class="container-fluid">
     <div class="row align-items-start">
-        <div class="col-sm-8 mt-2">
-            <div class="card">
-                <div class="card-header">
-                    Bootstrap template
+        <div class="col-12">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
                 </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="art/banner-1.jpg" class="d-block w-100" alt="background 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="art/banner-2.jpg" class="d-block w-100" alt="background 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-sm-8 mt-2 articles-list">
+            <div class="card align-items-center mt-3">
+                <div class="card-header text-center w-100">
+                    <h2>Интернет вещей (internet of things, IoT)</h2>
+                </div>
+                <img src="art/iot.jpeg" class="card-img-top w-50 mt-4" alt="Интернет вещей (internet of things, IoT)">
                 <div class="card-body">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut culpa dolorem ducimus esse
-                    ipsam itaque nostrum praesentium,
-                    sed tempore veritatis voluptatum! Accusantium adipisci corporis debitis deserunt dolorem doloribus
-                    ducimus earum ex fugiat ipsam laborum
-                    laudantium nesciunt perspiciatis possimus praesentium quasi quia recusandae repellendus repudiandae
-                    sapiente sint tempora ullam, ut. Itaque labore magni molestias odio.
+                    <hr>
+                    Концепция сети передачи данных между физическими объектами («вещами»),
+                    оснащёнными встроенными средствами и технологиями для взаимодействия друг с другом или с внешней
+                    средой. Предполагается, что организация таких сетей способна перестроить экономические и
+                    общественные процессы, исключить из части действий и операций необходимость участия человека.
+                    <br><br>
+                    Концепция сформулирована в 1999 году как осмысление перспектив широкого применения средств
+                    радиочастотной идентификации для взаимодействия физических предметов между собой и с внешним
+                    окружением. Наполнение концепции многообразным технологическим содержанием и внедрение практических
+                    решений для её реализации начиная с 2010-х годов считается устойчивой тенденцией в информационных
+                    технологиях, прежде всего, благодаря повсеместному распространению беспроводных сетей, появлению
+                    облачных вычислений, развитию технологий межмашинного взаимодействия, началу активного перехода на
+                    IPv6 и освоению программно-определяемых сетей.
+                </div>
+            </div>
+
+            <div class="card align-items-center mt-3">
+                <div class="card-header text-center w-100">
+                    <h2>Всемирная паутина</h2>
+                </div>
+                <img src="art/web.jpg" class="card-img-top w-100 mt-4" alt="Интернет вещей (internet of things, IoT)">
+                <div class="card-body">
+                    <hr>
+                    <strong>Всеми́рная паути́на</strong> (англ. World Wide Web) — распределённая система, предоставляющая доступ к
+                    связанным между собой документам, расположенным на различных компьютерах, подключённых к сети
+                    Интернет. Для обозначения Всемирной паутины также используют слово веб (англ. web «паутина») и
+                    аббревиатуру WWW.
+                    <br><br>
+                    Всемирную паутину образуют сотни миллионов веб-серверов. Большинство ресурсов Всемирной паутины
+                    основано на технологии гипертекста. Гипертекстовые документы, размещаемые во Всемирной паутине,
+                    называются веб-страницами. Несколько веб-страниц, объединённых общей темой или дизайном, а также
+                    связанных между собой ссылками и обычно находящихся на одном и том же веб-сервере, называются
+                    веб-сайтом. Для загрузки и просмотра веб-страниц используются специальные программы — браузеры
+                    (англ. browser).
+                    <br><br>
+                    Всемирная паутина вызвала настоящую революцию в информационных технологиях и дала мощный толчок
+                    развитию Интернета. В повседневной речи, говоря об Интернете, часто имеют в виду именно Всемирную
+                    паутину. Однако важно понимать, что это не одно и то же.
                 </div>
             </div>
         </div>
-        <div class="col-sm-4 mt-2">
+        <div class="col-sm-4 mt-4">
             <div class="card">
+                <div class="card-header"><strong>Last News</strong></div>
+                <div class="card-header">
+
+                </div>
                 <div class="card-body">
-                    Description <br />
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad commodi, consectetur dolorem dolores
-                    ducimus earum eveniet incidunt libero officia omnis, perferendis placeat quaerat sint soluta ullam
-                    unde vitae. Accusantium amet, consectetur consequuntur corporis cum delectus, ducimus ea eaque
-                    exercitationem facilis fugit molestiae, nisi perferendis praesentium quae quia veniam voluptatibus!
-                    A, accusantium animi, consequatur et ipsum modi molestiae neque qui suscipit velit vitae,
-                    voluptatem. Blanditiis commodi deserunt doloribus ducimus, exercitationem voluptates. Accusantium
-                    adipisci asperiores at dolorem eaque, eligendi est ex fuga fugit hic illum minima molestias nisi
-                    nostrum odit officia omnis, reiciendis repellat sequi sunt tempore tenetur totam ullam vero
-                    voluptatibus.
+                    <div class="card m-2">
+                        <a class="card-header text-center text-decoration-none" href="#">Lorem ipsum dolor sit amet.</a>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid assumenda beatae culpa cum
+                            debitis dignissimos dolore dolores doloribus enim est...
+                        </div>
+                        <div class="card-footer d-flex justify-content-between"><small>2 hours ago</small> <a href="#">Read
+                            more</a></div>
+                    </div>
+                    <div class="card m-2">
+                        <a class="card-header text-center text-decoration-none" href="#">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing.</a>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aliquid atque in magni,
+                            nihil placeat saepe soluta! Distinctio natus nemo repudiandae saepe vitae...
+                        </div>
+                        <div class="card-footer d-flex justify-content-between"><small>7 hours ago</small> <a href="#">Read
+                            more</a></div>
+                    </div>
+                    <div class="card m-2">
+                        <a class="card-header text-center text-decoration-none" href="#">Lorem ipsum dolor.</a>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, dicta distinctio doloribus
+                            exercitationem id minima quo vitae? Ab...
+                        </div>
+                        <div class="card-footer d-flex justify-content-between"><small>1 day ago</small> <a href="#">Read
+                            more</a></div>
+                    </div>
                 </div>
             </div>
         </div>

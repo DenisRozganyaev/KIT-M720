@@ -21,3 +21,7 @@
 .navbar-nav .nav-link.active {
     border-bottom: 1px solid orange;
 }
+
+.articles-list .card-header {
+    padding: 2%;
+}
