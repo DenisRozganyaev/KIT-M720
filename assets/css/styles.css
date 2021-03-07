@@ -1,0 +1,23 @@
+.navbar-brand {
+    background: #ececc4;
+    color: #db904f;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 1% 0;
+}
+
+.nav-container {
+    padding-left: 2%;
+}
+
+.navbar-nav .nav-link {
+    color: darkgray;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover {
+    color: #6d6b6b;
+}
+
+.navbar-nav .nav-link.active {
+    border-bottom: 1px solid orange;
+}
